@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Bilmece Oyunu</string>
+    <string name="bilmece_metni">Bağlarım yürür, çözerim durur.</string>
+    <string name="bilmece_cevabi">Ayakkabı</string>
 </resources>

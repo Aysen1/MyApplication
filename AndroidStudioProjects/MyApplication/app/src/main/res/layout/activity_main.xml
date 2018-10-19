@@ -9,10 +9,11 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/bilmece"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="Bilmece"
+        android:text="@string/bilmece_metni"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -26,11 +27,10 @@
         android:text="Cevabı Göster" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/cevap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:text="Bilmecenin Cevabı" />
+        android:padding="20dp" />
 
 
 </LinearLayout>
