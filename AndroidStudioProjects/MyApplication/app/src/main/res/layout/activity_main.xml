@@ -21,32 +21,45 @@
 
 
     <LinearLayout
+        android:id="@+id/butonlar"
         android:layout_width="wrap_content"
         android:layout_height="141dp"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="invisible">
 
         <Button
             android:id="@+id/saldir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="@string/saldir" />
+            android:text="@string/saldir"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/yemek"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="@string/yemek" />
+            android:text="@string/yemek"
+            android:visibility="visible" />
 
         <Button
             android:id="@+id/uyu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="20dp"
-            android:text="@string/uyu" />
+            android:text="@string/uyu"
+            android:visibility="visible" />
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Karakterinizin Adını Giriniz:" />
 
     <TextView
         android:id="@+id/cevap"
