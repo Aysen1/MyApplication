@@ -9,22 +9,44 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/bilmece"
+        android:id="@+id/karakterozelligi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="20dp"
-        android:text="@string/bilmece_metni"
+        android:text="@string/karakterozelligi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
+
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="20dp"
-        android:text="Cevabı Göster" />
+        android:layout_height="141dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saldir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/saldir" />
+
+        <Button
+            android:id="@+id/yemek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/yemek" />
+
+        <Button
+            android:id="@+id/uyu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/uyu" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/cevap"
